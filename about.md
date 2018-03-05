@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Curious about everything and constantly learning. 
 
-### More Information
+I started my career as a software developer. While writing code is great, I found out I like to be involved with the full SDLC.
 
-A place to include any other types of information that you'd like to include about yourself.
+These days I spend most of my time solving problems across product, teams, tech, architecture, systems and platforms. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Just send a message via LinkedIn or DM via twitter!
