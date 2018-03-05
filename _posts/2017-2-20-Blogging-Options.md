@@ -7,6 +7,6 @@ There appears to be more blogging options around now than ever before. Although 
 
 I'm after something really simple. 
 
-So far the best option appears to be [https://jekyllrb.com/](Jekyll) hosted on [https://pages.github.com/](GitHub Pages).
+So far one of the top option appears to be [Jekyll](https://jekyllrb.com/) hosted on [https://pages.github.com/](https://pages.github.com/).
 
 Watch this space to see if it's successful... 
