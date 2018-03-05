@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Curious about everything and constantly learning. 
+Curious about everything. Constantly learning. Passionate about technology.
 
 I started my career as a software developer. While writing code is great, I found out I like to be involved with the full SDLC.
 
