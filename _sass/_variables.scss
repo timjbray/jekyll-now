@@ -16,8 +16,9 @@ $white: #fff;
 
 // Font stacks
 $helvetica: georgia, Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$helveticaNeue: "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$lucida: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans";
 
 // Mobile breakpoints
 @mixin mobile {
