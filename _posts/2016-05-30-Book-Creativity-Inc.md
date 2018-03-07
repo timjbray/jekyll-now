@@ -6,6 +6,8 @@ title: Book Summary - Creativity Inc.
 Creativity Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration
 Ed Catmull and Amy Wallace
 
+![creativity inc]({{ site.baseurl }}/images/CreativityInc.png)
+
 I love Pixar films and knew a bit of the background but not the full story. This book fills in the all the gaps back to Ed's pioneering work with computer graphics, early work with Lucasfilm, then Pixar & Disney. It's also peppered with interesting stories about Steve Jobs, John Lasseter and more. 
 
 The book is full of interesting takeaways. Ed's insight into management, how to unlock creativity and how to get the most out of teams is excellent.
