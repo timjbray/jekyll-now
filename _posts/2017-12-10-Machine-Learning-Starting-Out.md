@@ -31,8 +31,8 @@ If Machine Learning allows you to predict the future, then it’s definitely of 
 
 ### What can it do?
 
-ML is broadly split between 2 main areas:
-- *Supervised*: Manually train the ML algorithm on a existing data. This builds a “model” which allows predicting an outcome with new/unseen data. 
+ML is broadly split into 2 main areas:
+- *Supervised*: Manually train the ML algorithm on existing data. This builds a “model” which allows predicting an outcome with new/unseen data. 
 - *Unsupervised*: Give an algorithm a lot of data and let it try to find patterns and relationships within it.
 
 Some examples include:
@@ -43,11 +43,5 @@ Some examples include:
 - Image analysis - recognise object & people in images, text analysis
 - IT Security & spam email filtering 
 
-### What & How much data do you need?
 
-It’s often said you need _Big Data_ to enable ML & AI. While having a lot of data is great, this is not totally accurate. Smaller data sets of very clean are far better then larger data sets of dirty data. Clean data is where all values are present and accurate (no missing values, formatting issues, etc).
-
-While the more clean data the better, you can sometimes get good results with only hundreds of really clean accurate  records. 
-
-
-_more to come..._
+_See part 2 for some practical advice_
