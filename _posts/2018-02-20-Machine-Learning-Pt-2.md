@@ -3,7 +3,7 @@ layout: post
 title: Better business decisions with Machine Learning - Part 2
 ---
 
-This post follows on to provide some practical advice on how to get started with Machine Learning
+This post follows on from part 1 to provide some practical advice on how to get started with Machine Learning.
 
 ![data science]({{ site.baseurl }}/images/DataScience.png)
 
@@ -29,12 +29,12 @@ Large projects commonly associated with large risk. Small projects, on the other
 
 ### Start without Coding
 
-You can do a great deal with Cloud based ML solutions. (AWS)[https://docs.aws.amazon.com/machine-learning/latest/dg/what-is-amazon-machine-learning.html], (Azure)[https://docs.microsoft.com/en-us/azure/machine-learning/studio/what-is-machine-learning] & (Google)[https://cloud.google.com/products/machine-learning/] all have cheap accessible options. These services take away some of the complexity and allow you to prototype and test out ideas quickly & easily.
+You can do a great deal with Cloud based ML solutions. [AWS](https://docs.aws.amazon.com/machine-learning/latest/dg/what-is-amazon-machine-learning.html), [Azure](https://docs.microsoft.com/en-us/azure/machine-learning/studio/what-is-machine-learning) & [Google](https://cloud.google.com/products/machine-learning/) all have cheap accessible options. These services take away some of the complexity and allow you to prototype and test out ideas quickly & easily.
 
-It may not always be possible to leverage these, for example, if you’re working with real time image or video processing. If so, there are still great options from (TensorFlow)[https://www.tensorflow.org] to great Python libraries like (scikit-learn)[http://scikit-learn.org/stable/].
+It may not always be possible to leverage these, for example, if you have bandwidth limitation and are working with real time image or video processing. If so, there are still great options from [TensorFlow](https://www.tensorflow.org) to great Python libraries like [scikit-learn](http://scikit-learn.org/stable/).
 
 ### Summary
 
 > Start small, be aware of the limitations, prototype, iterate & refine. 
 
-Use a process like this along with being careful to use any predictions to augment decisions is a great way to reduce the risks associated with Machine Learning.
+Following a simple process like above can help reduce the risks associated with Machine Learning. It's also sensible to use any predictions to augment business decisions - not drive them - at least until you have full confidence in the technology and output. 
