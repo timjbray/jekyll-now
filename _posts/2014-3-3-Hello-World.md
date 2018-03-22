@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello from my Blog!
+title: Hello from my Blog
 ---
 
 Welcome.
