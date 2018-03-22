@@ -18,7 +18,7 @@ avatar: https://avatars1.githubusercontent.com/u/25950187?s=128&v=4
 # Includes an icon in the footer for each username you enter
 footer-links:
   github: timjbray
-  instagram:
+  instagram: timjbray
   linkedin: timjbray
   twitter: timjbray
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
@@ -28,7 +28,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-78830511-2
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
