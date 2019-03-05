@@ -13,12 +13,12 @@ I don't really believe in absolutes, but here are some of my some of my non-nego
 
 - Modern language - I like to choose a language that is modern, but not bleeding edge. Don't want to start a new project on legacy. But don't want to build something where it may be impossible to get help or build a team around - when the project inevitably succeeds :-) 
 - Modern Platform - choose platforms that are going to accelerate development. I don't want to be building anything that can be pulled 'off-the-shelf'.
-- Source control - ie. Git. In my first coding job, source control was managed by using different disks and folders: `backup #1`, `latest backup` etc. It was a nightmare, luckily was able to convince the boss there was a better way.
+- Source control Service - In my first coding job, source control was managed by using different disks and folders: `backup #1`, `latest backup` etc. It was a nightmare, luckily was able to convince the boss there was a better way. Now it's not whether to use source control, or what type of source control (ie use Git), it's just about what service to use.
 - Issue tracking software - some great options here these days, it's also included in most source control services. I like to have the git comments link back to issues and stories.
 - Documentation - somewhere to write doco. Nuff said.
 - CI/CD - It should be super easy to get changes deployed and tested through pipelines. It's amazing how much this improves outcomes by encouraging regular delivery of small pieces of functionality. 
 
-(*) *Rules are there to be broken, I just try to consciously balance the trade-offs. For example, I chose a range of technologies that I didn't have much experience with and some where very new. Mostly because I wanted to learn, improve my skills and I expected the technology to gain popularity.*
+(*) *Rules are there to be broken, I just try to consciously balance the trade-offs. I've recently chosen a range of technologies that I didn't have much experience with and some where very new. Mostly because I wanted to learn, improve my skills and I expected the technology to gain popularity.*
 
 ## Bias for action
 
