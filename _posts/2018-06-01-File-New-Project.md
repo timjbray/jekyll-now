@@ -11,7 +11,7 @@ It's given me a chance to reflect on how to do things right from the start. But 
 
 I don't really believe in absolutes, but here are some of my some of my non-negotiables* in software projects:
 
-- Modern architectures - break that project up, don't build another monolith. 
+- Modern architectures - break that project up, don't build another monolith. I'm also a fan of evolutionary architecture, design for change.
 - Modern languages - I like to choose modern languages, but not bleeding edge. Don't want to start a new project on legacy. But don't want to build something where it may be impossible to get help or build a team around - when the project inevitably succeeds :-) 
 - Modern Platforms - choose platforms that are going to accelerate development. I don't want to be building anything that can be pulled 'off-the-shelf'.
 - API languages - how are all the services going to talk to each other? There are some cool options now. SOAP is not one of them ;-)
