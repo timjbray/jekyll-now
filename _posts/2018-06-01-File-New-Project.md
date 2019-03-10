@@ -21,6 +21,8 @@ I don't really believe in absolutes, but here are some of my some of my non-nego
 - CI/CD - It should be super easy to get changes tested and deployed to production through pipelines. It's amazing how much this improves outcomes by encouraging regular delivery of small pieces of functionality. The DevOps mindset.
 - Monitoring - Need to know when there are issues and how the app is performing. There are now so many great tools and services to choose from here.
 
+> It's amazing how much this improves outcomes by encouraging regular delivery of small pieces of functionality. The DevOps mindset.
+
 (*) _Rules are there to be broken, I just try to consciously balance the trade-offs. I've recently chosen a range of technologies that I didn't have much experience with and somewhere very new. Mostly because I wanted to learn, improve my skills and I expect the technology to gain popularity._
 
 ## Bias for action
