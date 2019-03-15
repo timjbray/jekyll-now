@@ -9,7 +9,9 @@ It's given me a chance to reflect on how to do things right from the start. But 
 
 ## What is right?
 
-I don't really believe in absolutes, but here are some of my some of my non-negotiables* in software projects:
+I like to have a solid methodology and rules. This helps to generate results that are predictable and repeatable. For example, I quite like the [12 Factor App](https://12factor.net) methodologies, and _mostly_ follow the factors. 
+
+While I don't really believe in absolutes, but here are some of my some of my non-negotiables* in software projects:
 
 - Modern architectures - break that project up, don't build another monolith. I'm also a fan of evolutionary architecture, design for change.
 - Modern languages - I like to choose modern languages, but not bleeding edge. Don't want to start a new project on legacy. But don't want to build something where it may be impossible to get help or build a team around - when the project inevitably succeeds :-) 
