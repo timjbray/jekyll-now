@@ -57,6 +57,25 @@ $on-large:         $on-laptop !default;
 
 // hack in my CSS changes 
 
+h1 {
+  padding-top: $spacing-unit;
+}
+
+pre,
+code {
+  @include relative-font-size(0.80);
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  border: 1px solid $grey-color-light;
+  border-radius: 4px;
+  background-color: #f3f3f3;
+}
+
+.highlight {
+  .highlighter-rouge & {
+    background: #f3f3f3;
+  }
+}
+
 .my-avatar {
   float: left;
   width: 52px;
