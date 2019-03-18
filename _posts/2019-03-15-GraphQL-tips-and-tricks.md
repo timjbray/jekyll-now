@@ -7,6 +7,9 @@ We're using the awesome [Apollo](https://www.apollographql.com) client and serve
 
 Here are a few items that we didn't immediately see in the documentation, which is generally very good, or found we needed during development and roll out to production.
 
+1. Table of contents
+{:toc}
+
 
 # GraphQL vs the libraries
 
