@@ -1,9 +1,9 @@
 ---
 layout: post
-title: GraphQL tips and tricks.
+title: 5 tips using Apollo GraphQL
 ---
 
-We're using the awesome [Apollo](https://www.apollographql.com) client and server libraries in Node.js & React / React Native apps. They've been reliable, full featured and mostly easy to use - albeit with reasonable learning curve. Which is totally understandable since they are doing a comprehensive and are doing a lot for you.
+We're using the awesome [Apollo](https://www.apollographql.com) client and server libraries in Node.js & React / React Native apps. They've been reliable, full featured and mostly easy to use - albeit with reasonable learning curve. Which is totally understandable since they are doing a lot for you.
 
 Here are a few items that we didn't immediately see in the documentation, which is generally very good, or found we needed during development and roll out to production.
 
@@ -13,28 +13,25 @@ Here are a few items that we didn't immediately see in the documentation, which 
 
 # GraphQL vs the libraries
 
-The Apollo libraries do a log of heavy lifting for you. This makes it easy to get started, but with this help and abstraction you can easily get lost as to what the libraries are doing and what is just GraphQL. 
+The Apollo libraries do a lot of heavy lifting for you. This makes it easier to get started, but with this help and abstraction you can easily get lost as to what the libraries are doing and what is just plain GraphQL. We found it important to understand what functionality was provided by the libraries vs what is plain GraphQL. It's worth reading (or at least skimming) the official [GraphQL spec](https://facebook.github.io/graphql/draft). 
 
 ### GraphQL Playground 
 
-The [playground](https://www.apollographql.com/docs/apollo-server/features/graphql-playground.html) is invaluable in playing around with queries and mutations. Add your `Authorization` HTTP header to query anything that is not public in your graph/api. 
+The [playground](https://www.apollographql.com/docs/apollo-server/features/graphql-playground.html) is invaluable in playing around with queries and mutations. 
+
+> Add your `Authorization` HTTP header to query anything that is not public in your graph/api. 
 
 ```
 {
   "Authorization": "Bearer eyJhbGciOiJIUzI....."
 }
 ```
-### Chrome dev tools
-
-For further debugging head to Chrome's network tools. You can see the full request and response under network. Copy the request as `cURL` and directly import into the great [Postman](https://www.getpostman.com) API editor (or API IDE?) for further debugging.
-
-![graphql_chrome_tools]({{ site.baseurl }}/images/graphql-chrome-dev-tools-copy.png)
 
 ### Raw GraphQL
 
-These tools make it easy to get comfortable with the language by viewing, executing and testing GraphQL. You can also write queries or mutations without using the client libraries at all. 
+Tools like the playground make it easy to get comfortable with the language by viewing, executing and testing GraphQL. It's also worth noting that you don't need to use the client libraries at all. 
 
-For example, here we're calling a mutation using plain old JavaScript. 
+Once you understand the language syntax, you can also write queries or mutations without using the client libraries at all. For example, here we're calling a mutation using plain old JavaScript. 
 
 ```js
 const refreshToken = apiUri => () => {
@@ -42,11 +39,11 @@ const refreshToken = apiUri => () => {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      operationName: 'authRefreshToken',
-      query: `mutation authRefreshToken {
-                authRefreshToken {
+      operationName: 'authRefresh',
+      query: `mutation authRefresh {
+                authRefresh {
                   ok
-                  access_token
+                  data
                 }
               }`
     })
@@ -56,9 +53,19 @@ const refreshToken = apiUri => () => {
 };
 ```
 
+# Debugging with Postman & Chrome dev tools
+
+For further debugging head to Chrome's network tools. Like any network call, you can see the full GraphQL request and response under the network tab. 
+
+Copy the request as `cURL` and directly import into the great [Postman](https://www.getpostman.com) API editor (or API IDE?) for further debugging or manipulation.
+
+![graphql_chrome_tools]({{ site.baseurl }}/images/graphql-chrome-dev-tools-copy.png)
+
+
 # Logging
 
-It's essential to log errors and requests. We found with the default setup, syntax errors and other issues became hard to debug unless we riddled our code with exception handling. We then found this [feature](https://www.apollographql.com/docs/apollo-server/features/errors.html#Masking-and-logging-errors) of the Apollo server constructor, which allows logging (& modifying) errors and responses. This greatly helps with diagnosing syntax errors or issues that occur before hitting your resolvers.
+It's essential to log errors and requests. We found with the default setup, syntax errors and other issues became hard to debug unless we riddled our code with exception handling. We then found this [feature](https://www.apollographql.com/docs/apollo-server/features/errors.html#Masking-and-logging-errors) of the Apollo server constructor, which allows logging (& modifying) errors and responses. This greatly helps with diagnosing syntax errors or issues that occur outside your resolvers.
+
 
 ```js
 const server = new ApolloServer({
@@ -86,6 +93,8 @@ There are more advanced logging techniques, but this is super simple to use from
 
 
 # Simple Authentication and Authorization
+
+The GraphQL specification doesn't cover authentication or authorization. It's up to you how to implement it, which is great (you can choose whatever method best suits your situations), and could be annoying (as there isn't a single best practice solution). 
 
 When starting our project, we initially had all GraphQL operations (API calls) public. We then added simple authentication via Express middleware, and started to pass an `isAuthenticated` flag down to all query and mutation resolvers. 
 
@@ -201,13 +210,13 @@ async user(_, args, context): Promise<any> {
 ```
 
 There are a few issues with the solution.
-- Only works on the first level of the query. For example, this won't handle situations where related entities are also requested. 
+- Only works on the first level of the query. For example, this won't handle situations where related entities are also requested.
 - Using an undocumented feature of Apollo server, which may change.
 
 This could be a great solution make some key operations as efficient as possible, without creating separate operations. But should only be used carefully with an understanding of the trade-offs. 
 
 # Summary
 
-These tips and tricks that we picked up over time. Hopefully you'll find some of them useful.
+These are a few tips and tricks that we picked up over time. Hopefully you'll find some of them useful. 
 
 Please note, these examples are all simplifications, and are not production ready!
