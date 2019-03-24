@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 5 tips using Apollo GraphQL
+title: 6 tips using Apollo GraphQL
 ---
 
 We're using the awesome [Apollo](https://www.apollographql.com) client and server libraries in Node.js & React / React Native apps. They've been reliable, full featured and mostly easy to use - albeit with reasonable learning curve. Which is totally understandable since they are doing a lot for you.
 
-Here are a few items that we didn't immediately see in the documentation, which is generally very good, or found we needed during development and roll out to production.
+Here are a few items that we didn't immediately see in the documentation, didn't understand the importance of, or found we needed during development and roll out to production.
 
 1. Table of contents
 {:toc}
@@ -157,6 +157,47 @@ const getOperationName = (req) => {
 
 There are more advanced authentication and authorization techniques, like using GraphQL [schema directives](https://www.apollographql.com/docs/apollo-server/features/authentication.html#directives-auth). 
 
+# Caching
+
+Early on, we ran into issues when our logic became complicated and we started dealing with eternal systems/API's. We needed to send out requests to multiple systems, then wait and combine the responses. 
+
+The natural tendency - especially coming from REST based API's - was to just query more often. We would re-factor components to force this and changed the `fetchPolicy` for queries to be `network-only`.
+
+We were working against GraphQL & Apollo. The solution to this growing complexity was to leverage the Apollo Cache (and subscriptions or polling)
+
+The default [fetchPolicy](https://www.apollographql.com/docs/react/basics/queries.html#graphql-config-options-fetchPolicy) is `cache-first` (there could be an argument that `cache-and-network` should be the default). Cache-first checks if the requested data is in the cache, and if so, just returns it. It's up to you to figure out if that data might be stale. 
+
+There are a few options to dealing with potentially stale data:
+- Periodically clear the whole cache
+- Bypass the cache using `network-only` (or request a network call after checking the cache `cache-and-network`)
+- Prevent the cache becoming stale (see below for techniques)
+- Set the cache directives using the [cache control extension](https://github.com/apollographql/apollo-cache-control)
+
+It's important to set up the cache when creating the Apollo Client. If you are using guid's then it's as easy as this, otherwise check out the [InMemoryCache options](https://www.apollographql.com/docs/react/advanced/caching.html).
+
+```js
+  return new ApolloClient({
+    link: ...,
+    cache: new InMemoryCache({ dataIdFromObject: o => o.id })
+  });
+```
+
+Once we understood how the cache works, everything became easier. 
+
+### Our caching approach 
+
+- Understand _exactly_ how each of the `fetchPolicy` values work
+- Install the Chrome [Apollo Client Developer](https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm) extension. This allows inspecting the cache as well as queries and mutations.
+- Consider the cache on every single call. 
+  - Does it matter if this data comes from the cache? 
+  - Or does it need to only come from the server?
+- Keep track of what variables are used for queries. Each query is cached along with it's variables 
+- Use `fetchMore` and the `@connection` directive to handle [paginated data](https://www.apollographql.com/docs/react/advanced/caching.html#fetchMore).
+- Consider the cache after every _mutation_. 
+  - If we return the object that was updated/created, Apollo will automatically cache it for us. 
+  - Manually handle when we insert new records. 
+- Determine if it's better to update the cache manually after a mutation using [writeQuery](https://www.apollographql.com/docs/react/advanced/caching.html#writequery-and-writefragment), or `refetch` the data from the server. 
+
 
 # Querying only selected fields from the database
 
@@ -210,7 +251,8 @@ async user(_, args, context): Promise<any> {
 ```
 
 There are a few issues with the solution.
-- Only works on the first level of the query. For example, this won't handle situations where related entities are also requested.
+- Only works on the first level of the query. For example, this won't handle situations where related entities are also requested. This can be solved through recursion.
+- Doesn't handle fragments.
 - Using an undocumented feature of Apollo server, which may change.
 
 This could be a great solution make some key operations as efficient as possible, without creating separate operations. But should only be used carefully with an understanding of the trade-offs. 
