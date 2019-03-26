@@ -20,11 +20,12 @@ This post outlines some technology I've been using recently.
 - React
 - React Native for building iOS & Android apps
 
-## Additional services
+## Additional services / tools
 
 - Senty 
 - Stackdriver 
 - Firebase
 - Fastlane for publishing mobile apps
+- Prettier.io - formatting code
 
 Over time, I'll try to build out the reasoning behind each selection.

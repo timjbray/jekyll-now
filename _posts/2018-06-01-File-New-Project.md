@@ -15,6 +15,7 @@ While I don't really believe in absolutes, but here are some of my some of my no
 
 - Modern architectures - break that project up, don't build another monolith. I'm also a fan of evolutionary architecture, design for change.
 - Modern languages - I like to choose modern languages, but not bleeding edge. Don't want to start a new project on legacy. But don't want to build something where it may be impossible to get help or build a team around - when the project inevitably succeeds :-) 
+- Code formatters, linters & static analysis - use these to reduce style issues and improve code quality 
 - Modern Platforms - choose platforms that are going to accelerate development. I don't want to be building anything that can be pulled 'off-the-shelf'.
 - API languages - how are all the services going to talk to each other? There are some cool options now. SOAP is not one of them ;-)
 - Source control service - In my first coding job, source control was managed by using different disks and folders: `backup #1`, `latest backup` etc. It was a nightmare, luckily was able to convince the boss there was a better way. Now it's not whether to use source control, or what type of source control (ie use Git), it's just about what service to use and what extras it provides.
@@ -45,5 +46,7 @@ The Cloud, micro services, React/Angular/Vue components, shared packages (npm/ge
 
 ## It's all secondary
 
-While choosing great technologies and tools will help a project succeed, I've found they are secondary to having the right processes, culture, automation & measurement. Processes that consistently help build the right product in the right way. 
+> ...they are secondary to having the right processes, culture, automation & measurement.
+
+While choosing great technologies and tools will help a project succeed, I've found they are secondary to having the right processes, culture, automation & measurement. These enable that consistent quality and delivery. Building the right product in the right way. 
 
