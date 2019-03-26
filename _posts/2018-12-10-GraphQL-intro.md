@@ -3,7 +3,9 @@ layout: post
 title: GraphQL primer.
 ---
 
-When we started evaluating whether to use GraphQL for a new project, it seemed to have as many detractors as fans. The GraphQL tag line explains it as _a query language for your api_. But I'm not sure that really helps explain what it does, how it can help and whether it's a good option.
+When we started evaluating GraphQL for a new project, it seemed to have as many detractors as fans. 
+
+The GraphQL tag line explains it as _a query language for your api_. But I'm not sure that really helps explain what it does, how it can help and whether it's a good option. 
 
 We ended up selecting it and now have reasonable experience with the technology. Have learnt a lot of hard lessons along the way, which I'll explain in this and a few upcoming posts.
 
