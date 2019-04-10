@@ -11,11 +11,11 @@ Annoyingly, most of the disk was used by the System.
 
 > Time for a proper disk clean up!
 
-There are plenty of commercial tools that will help. But, as an engineer, I prefer to know how things work and wanted to do it manually. 
+There are plenty of commercial tools that will help. But, wearing my engineer's hat, I prefer to know how things work and wanted to do it manually. 
 
 ![macos-storage]({{ site.baseurl }}/images/macos-storage.png)
 
-Running through the process below, I was able to free up about 50Gb of space.
+Running through the process below, I was able to free up more than 50Gb of space.
 
 1. Table of contents
 {:toc}
@@ -56,7 +56,7 @@ My user cache in `~\Library\Caches` was very large.
 du -sh ~/Library/Caches/
 ```
 
-Quit all apps before clearing anything in the cache. It's apparently better to delete the contents of folders that the folders themselves - but I haven't properly investigated whether this is true. If you're feeling lucky clear it all, otherwise research the implications.  
+Quit all apps before clearing anything in the cache. It's apparently better to delete the contents of folders that the folders themselves - but I haven't properly researched whether this is true. If you're feeling lucky - clear it all, otherwise research the implications. I felt lucky & just deleted everything.
 
 # Node / yarn / npm
 
