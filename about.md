@@ -18,7 +18,7 @@ Based in Melbourne, Australia. I'm currently building a new business with a rang
 
 I've been in tech leading roles now for over 15 years - as CTO, development manager, senior architect & tech lead positions. 
 
-During that time I've noticed the challenges in building products and leading teams has remained consistent. I also uncovered a range of these challenges the hard way. I also found if you're the senior most tech person in your company (or department) it's sometimes hard to find someone to talk to. 
+During that time I've noticed the challenges in building products and leading teams has remained consistent. I uncovered a range of these challenges the hard way. I also found if you're the senior most tech person in your company (or department) it's sometimes hard to find someone to talk to. 
 
 Get in touch if you would like to chat!
 
