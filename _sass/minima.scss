@@ -55,7 +55,8 @@ $on-large:         $on-laptop !default;
   "minima/syntax-highlighting"
 ;
 
-// hack in my CSS changes 
+// -------------------------------------------------
+// hack in my CSS changes ...
 
 h1 {
   padding-top: $spacing-unit;
@@ -98,4 +99,9 @@ code {
   > {
     vertical-align: middle;
   }
+}
+
+img + em { 
+  color: #828282;
+  font-size: 14px;
 }
