@@ -3,21 +3,21 @@ layout: post
 title: Starting and Engineering culture
 ---
 
-Over the past year I've been lucky enough to start a company and build a range of products from scratch. While I've done this now a few times, my previous and most recent role was at the other end of the spectrum - with a mature company and products.
+Over the past year I've been lucky enough to co-found a startup and build a range of products from scratch. While I've built many products from scratch, my previous and most recent role was at the other end of the spectrum - with a mature company and products.
 
 ![image]({{ site.baseurl }}/images/sushobhan-badhai-372964-unsplash-2.jpg)
 *Photo by Sushobhan Badhai on Unsplash*
 
-It's given me a great opportunity to think about what's important to do when starting out. What decisions you can do early that will pay off later. What I've seen worked well, what didn't work as well or wished we did differently. 
+It's given me a great opportunity to think about what's important to do when starting out. What decisions you can do early that will pay off later, what I've seen worked well, what didn't work as well or wished we'd done differently. 
 
-There are a range of obvious decisions which I won't touch on - eg. modern architectures, platforms, CI/CD, monitoring, analytics etc. Instead, will try to cover some less obvious decisions.
+There are a range of obvious decisions which I won't touch on - eg. lean/agile processes, modern architectures, platforms, CI/CD, monitoring, analytics etc. Instead, will try to cover some less obvious decisions.
 
 1. Table of contents
 {:toc}
 
 ## Conscious trade-offs
 
-Should you write comprehensive unit tests for all code? Even if it is experimentation and prototyping? 
+Should you write comprehensive unit tests for all code? Even if it is experimentation or prototyping and might not be released? 
 
 When should you worry about scaling? Does performance matter when you don't know what load to expect?
 
@@ -31,21 +31,21 @@ What worked well for us was to ask these questions up front. Bake them into each
 
 Tech debt is the cost of future rework by taking shortcuts - not to be confused with plain bad code!
 
-If you haven't worked on a green fields project recently, you may think it takes some time before tech debt accumulates. But, unless you have the luxury of time and know ***everything***, ***exactly*** - there will be rework. We learn along the way. About the technology, platforms, services, market and customer. 
+If you haven't worked on a green fields project recently, you may think it takes some time before tech debt accumulates. But, unless you have the luxury of time and know ***everything***, ***exactly*** - there will be rework. We learn along the way. About the technology, platforms, services, market and customers. 
 
-If we know tech debt is always accumulating, we should regularly pay it down. Not holding off and scheduling dedicated time in the future. In my experience, that future time will never arrive. Like paying off your mortgage, it's best if you chip away paying weekly or monthly.
+If we know tech debt is always accumulating, we should regularly pay it down. Not holding off and scheduling dedicated time in the future. In my experience, that future time will never arrive. Like paying off your mortgage, it's best if you chip away paying weekly or monthly. Prioritise debt as part of each sprint.
 
 All tech debt isn't created equally, it has different interest rates. 
 
 Some of it has a high interest rate - like credit card debt - and is expensive to maintain. Finance #101 says pay off your high interest debt first. These are the items slowing the team down or causing issues. 
 
-While other debt may have a lower interest rate and is cheaper to maintain. These may not be slowing the teams down or causing as many issues. Address this second. 
+ Other debt may have a lower interest rate and is cheaper to maintain. This debt may not be slowing the teams down or causing as many issues. Address this second. 
 
-Scheduling a percentage of every sprint to addressing tech debt keeps it under control. The other approach I like is the "boy scout rule" - leave the campground cleaner than you found it. Made popular by Uncle Bob, whenever anyone touches something, make it better. Clean up the code, rename variable, add tests, do whatever improves it. Even if it's only picking up one empty beer can or a bottle cap next to the campfire.
+Scheduling a percentage of every sprint to addressing tech debt keeps it under control. The other approach I like is the "boy scout rule" - leave the campground cleaner than you found it. Made popular by Uncle Bob, whenever anyone touches something, make it better. Clean up the code, rename variables, add tests, do whatever improves it. Even if it's only picking up one empty beer can or a bottle cap next to the campfire.
 
 ## Architect for change
 
-Software architecture can be defined as the parts that are hard to change. They are combination of factors - performance, security, scalability, requirements, data, compliance, and all “-ilities”. 
+Software architecture can be defined as the parts that are hard to change. They are a combination of factors - performance, security, scalability, requirements, data, compliance, and all “-ilities”. 
 
 It's sometimes easy to know which areas that are likely to change. They're the areas you know the least about. The areas that are most unknown - from either a product feature or a technology point of view. 
 
@@ -101,3 +101,6 @@ Set your diversity goals early and monitor. It's far easier to create diversity 
 
 ## Summary
 
+When you're small and nimble it's easy to change direction, adjust culture and fix issues. It's the perfect time to start an engineering culture that delivers quality and produces real value.
+
+While not a comprehensive list of items, these items have definitely helped me.
