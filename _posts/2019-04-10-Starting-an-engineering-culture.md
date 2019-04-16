@@ -101,6 +101,6 @@ Set your diversity goals early and monitor. It's far easier to create diversity 
 
 ## Summary
 
-When you're small and nimble it's easy to change direction, adjust culture and fix issues. It's the perfect time to start an engineering culture that delivers quality and produces real value.
+When you're small and nimble it's easier to change direction, adjust culture and fix issues. It's the perfect time to start an engineering culture that delivers quality and produces real value.
 
 While not a comprehensive list of items, these items have definitely helped me.
