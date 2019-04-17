@@ -97,6 +97,8 @@ A few years ago I caught myself complaining about lack of gender diversity in my
 
 During a high growth phase the business preferred *people that can hit the ground running*. We were also hiring for individuals with a strong cultural fit. We ended up bringing on a number of very similar people and forgot about all the other diversity planes: background, age, education, seniority, experience, skills. 
 
+A similar issue occurred with our referrals. Generally referrals are great by reducing some unknowns, but have limits, as people tend to refer alike people.
+
 Set your diversity goals early and monitor. It's far easier to create diversity when teams are small, than to retrofit into larger teams. 
 
 ## Summary
