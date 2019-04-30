@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Starting and Engineering culture
+title: Starting an Engineering culture
 ---
 
 Over the past year I've been lucky enough to co-found a startup and build a range of products from scratch. While I've built many products from scratch, my previous most recent role was at the other end of the spectrum - with a mature company and products.
@@ -10,7 +10,7 @@ Over the past year I've been lucky enough to co-found a startup and build a rang
 
 It's given me a great opportunity to think about what's important to do when starting out. What patterns to watch out for. What decisions you can do early that will pay off later, what I've seen worked well, what didn't work as well or wished we'd done differently. 
 
-There are a range of obvious decisions which I won't touch on - eg. lean/agile processes, modern architectures, platforms, CI/CD, monitoring, analytics etc. Instead, will try to cover some less obvious decisions.
+There are a range of obvious decisions which I won't touch on - eg. lean/agile processes, modern architectures, platforms, CI/CD, monitoring, analytics etc. Instead, will try to cover some less obvious decisions and patterns to watch out for.
 
 1. Table of contents
 {:toc}
