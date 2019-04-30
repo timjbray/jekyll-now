@@ -3,12 +3,12 @@ layout: post
 title: Starting and Engineering culture
 ---
 
-Over the past year I've been lucky enough to co-found a startup and build a range of products from scratch. While I've built many products from scratch, my previous and most recent role was at the other end of the spectrum - with a mature company and products.
+Over the past year I've been lucky enough to co-found a startup and build a range of products from scratch. While I've built many products from scratch, my previous most recent role was at the other end of the spectrum - with a mature company and products.
 
 ![image]({{ site.baseurl }}/images/sushobhan-badhai-372964-unsplash-2.jpg)
 *Photo by Sushobhan Badhai on Unsplash*
 
-It's given me a great opportunity to think about what's important to do when starting out. What decisions you can do early that will pay off later, what I've seen worked well, what didn't work as well or wished we'd done differently. 
+It's given me a great opportunity to think about what's important to do when starting out. What patterns to watch out for. What decisions you can do early that will pay off later, what I've seen worked well, what didn't work as well or wished we'd done differently. 
 
 There are a range of obvious decisions which I won't touch on - eg. lean/agile processes, modern architectures, platforms, CI/CD, monitoring, analytics etc. Instead, will try to cover some less obvious decisions.
 
@@ -85,7 +85,7 @@ With stability, teams can start to optimise locally, serving their own interests
 
 We start to see tribalism creep in, where teams protect their patch. I've also seen conflict between teams, as teams understand their own situation but have little empathy or understanding of other teams challenges. 
 
-Team stability also creates narrow experts. Early on having experts is great, makes routing issues easy. But it creates risk - relying on individuals and is hard to scale.  
+Team stability also creates narrow experts or domain champions. Early on having experts is great, makes routing issues easy and they are usually highly productive. But it creates risk - relying on individuals, is hard to scale and can cause attrition or stagnation. A narrow expert will usually be an awesome contributor and since they are experts, there's very little the wider team can contribute or provide feedback on.  
 
 The ideal solution is to create a culture that expects some change, but not too much. Where teams are able to handle change and still perform. It's difficult to balance and I've been caught out at both ends. 
 
@@ -105,4 +105,4 @@ Set your diversity goals early and monitor. It's far easier to create diversity 
 
 When you're small and nimble it's easier to change direction, adjust culture and fix issues. It's the perfect time to start an engineering culture that delivers quality and produces real value.
 
-While not a comprehensive list of items, these items have definitely helped me.
+While not a comprehensive list of patterns, these items have definitely helped me.
