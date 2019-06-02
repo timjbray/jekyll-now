@@ -18,11 +18,11 @@ The tricky part with velocity is defining unit of work - as it is usually an est
 
 This estimation of work is also why it's difficult to compare velocity between teams. 
 
-## The need for metrics
+## The need for additional metrics
 
-Without metrics, it's all opinion. Usually it's the loudest voice or most senior opinion that reigns, not the truth. Something I've experienced many times when I didn't have the data on hand.
+Without quality metrics, it's all opinion. Usually it's the loudest voice or most senior opinion that reigns, not the truth. Something I've experienced many times when I wasn't tracking the right metrics.
 
-But if velocity is flawed as a metric, what should we use to track software delivery?
+> But if velocity is flawed as a metric, what should we use to track software delivery?
 
 All metrics can be flawed, so we want to combine multiple metrics across the full SDLC, hopefully creating a holistic picture. This should reduce bias and errors within individual metrics and give more reliable data to track software delivery over longer periods. 
 
