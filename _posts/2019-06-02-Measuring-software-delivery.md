@@ -14,9 +14,7 @@ While the discussions specifically talked about product velocity, they were talk
 
 Agile made the term [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development)) popular. It's defined as **unit of work** over an **interval** (usually sprints). You can then track this and watch velocity increase, decrease or remain constant.
 
-The tricky part with velocity is defining unit of work - as it is usually an estimation, eg. story points. If estimations remain reasonably consistent over time, then velocity can be compared over time (note: they don't need to be accurate, just consistent). Over a few sprints or months this can be accurate, but over longer periods the consistency declines. Estimates change as the team, projects, product and type of work change. 
-
-This estimation of work is also why it's difficult to compare velocity between teams. 
+The tricky part with velocity is defining unit of work - as it is usually a relative estimation, eg. story points. If estimations remain reasonably consistent over time, then velocity can be compared over time (they don't need to be accurate, just consistent). Over a few sprints or months this can be accurate, but over longer periods the consistency declines. Estimates change as the team, projects, product and type of work change. 
 
 ## The need for additional metrics
 
@@ -27,9 +25,9 @@ Without quality metrics, it's all opinion. Usually it's the loudest voice or mos
 All metrics can be flawed, so we want to combine multiple metrics across the full SDLC, hopefully creating a holistic picture. This should reduce bias and errors within individual metrics and give more reliable data to track software delivery over longer periods. 
 
 - **Customer lens**: [NPS](https://en.wikipedia.org/wiki/Net_Promoter) or similar to measure customer satisfaction. No point efficiently delivering features that customers don't like.
-- **Engineering lens**: [Lead Time](https://en.wikipedia.org/wiki/Lead_time) - The elapsed time between identifying a feature and delivery of the feature.
-- **Quality lens**: Issues found in production are a great indication of quality and a sustainable engineering process.
-- **Production lens**: Mean time to resolve or repair ([MTTR](https://en.wikipedia.org/wiki/Mean_time_to_repair)) - how long it takes to address an issue. 
+- **Engineering**: [Lead Time](https://en.wikipedia.org/wiki/Lead_time) - The elapsed time between identifying a feature and delivery of the feature.
+- **Quality**: Issues found in production are a great indication of quality and a sustainable engineering process.
+- **Production**: Mean time to resolve or repair ([MTTR](https://en.wikipedia.org/wiki/Mean_time_to_repair)) - how long it takes to address an issue. 
 
 ## Customer Satisfaction - NPS
 
@@ -63,6 +61,8 @@ What's great about MTTR - like the above metrics - gives insight into the wider 
 
 ## Data driven decisions
 
-I like how these metrics all overlap. They each give insight into the full product engineering process as well as each critical component (customer satisfaction, engineering efficiency, quality & production). This overlap increases the quality of each metric and increases the ability to track over time. Which is the whole aim - tracking software delivery or *velocity* over time.  
+I like how these metrics all overlap & encourage a DevOps culture. 
 
-Next time someone complains about product velocity not being as fast as it should be - just bring out these numbers and have discussions based on real data, not hearsay!
+They each give insight into the full product engineering process as well as each critical component (customer satisfaction, engineering efficiency, quality & production). The overlap increases the quality of each metric and increases the ability to track over time. Which is the whole aim - tracking software delivery or *velocity* over time.  
+
+When tracking over time, they give an early indication of software delivery issues or decreasing product velocity. All based on real data, not opinion or hearsay! 
