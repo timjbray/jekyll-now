@@ -12,19 +12,19 @@ The discussions were around how a company's product velocity has been decreasing
 
 While the discussions specifically talked about product velocity, they were talking more broadly about the ability to deliver value to customers. 
 
-Agile made the term [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development)) popular. It's defined as **unit of work** over an **interval** (usually sprints). You can then track this and watch velocity increase, decrease or remain constant.
+Agile made the term [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development)) popular. It's defined as **unit of work** over an **interval** (usually sprints). 
 
-The tricky part with velocity is defining unit of work - as it is usually a relative estimation, eg. story points. If estimations remain reasonably consistent over time, then velocity can be compared over time (they don't need to be accurate, just consistent). Over a few sprints or months this can be accurate, but over longer periods the consistency declines. Estimates change as the team, projects, product and type of work change. 
+The tricky part with velocity is defining *unit of work* - as it is usually a relative estimation, eg. story points. If estimations remain consistent over time, then velocity can be compared over time (they don't need to be accurate, just consistent). Over a few sprints or months this can be accurate, but over longer periods the consistency declines. Estimates change as the team, projects, product and type of work change. 
 
 ## The need for additional metrics
 
-Without quality metrics, it's all opinion. Usually it's the loudest voice or most senior opinion that reigns, not the truth. Something I've experienced many times when I wasn't tracking the right metrics.
+Without quality metrics, it's all opinion. Usually it's the loudest voice or most senior opinion that reigns, not the truth. Something I've experienced many times when I wasn't tracking the right metrics. 
 
-> But if velocity is flawed as a metric, what should we use to track software delivery?
+> But if velocity is flawed as a metric, what data can we use to track software delivery?
 
 All metrics can be flawed, so we want to combine multiple metrics across the full SDLC, hopefully creating a holistic picture. This should reduce bias and errors within individual metrics and give more reliable data to track software delivery over longer periods. 
 
-- **Customer lens**: [NPS](https://en.wikipedia.org/wiki/Net_Promoter) or similar to measure customer satisfaction. No point efficiently delivering features that customers don't like.
+- **Customer Satisfaction**: [NPS](https://en.wikipedia.org/wiki/Net_Promoter) or similar to measure customer satisfaction. No point efficiently delivering features that customers don't like.
 - **Engineering**: [Lead Time](https://en.wikipedia.org/wiki/Lead_time) - The elapsed time between identifying a feature and delivery of the feature.
 - **Quality**: Issues found in production are a great indication of quality and a sustainable engineering process.
 - **Production**: Mean time to resolve or repair ([MTTR](https://en.wikipedia.org/wiki/Mean_time_to_repair)) - how long it takes to address an issue. 
@@ -37,10 +37,12 @@ There are plenty of metrics that measure customer satisfaction. While I believe 
 
 ## Engineering - Lead Time
 
+![image]({{ site.baseurl }}/images/lead-time.png)
+
 Taken from Lean manufacturing principles. In the software world it's the elapsed time between identifying a feature and delivery of the feature. The great thing about measuring lead time is that is encourages many good engineering practices:
 
-- Working in smaller batches - reduces risk, increases throughput & agility.
-- Encourages frequent deployment - finishes when value is delivered to customers.
+- Working in smaller batches - reduces risk & work in progress (WIP), increases throughput & iteration.
+- Encourages frequent deployment - as lead time measures when value is delivered to customers.
 - Backlog management - Evaluating adding items to a backlog & removing items that are not likely to ever be delivered.
 
 Lead time can be optionally divided up into Cycle Time - the time between development starting and delivery. Measuring both Lead and Cycle allow tracking the time from the 3 core points of views - the customer/user (total time), product team (health of backlog) & engineering (time taken to build & deploy).
@@ -65,4 +67,4 @@ I like how these metrics all overlap & encourage a DevOps culture.
 
 They each give insight into the full product engineering process as well as each critical component (customer satisfaction, engineering efficiency, quality & production). The overlap increases the quality of each metric and increases the ability to track over time. Which is the whole aim - tracking software delivery or *velocity* over time.  
 
-When tracking over time, they give an early indication of software delivery issues or decreasing product velocity. All based on real data, not opinion or hearsay! 
+When tracked over time, they give an early indication of software delivery issues or decreasing product velocity. All based on real data, not opinion or hearsay! 
