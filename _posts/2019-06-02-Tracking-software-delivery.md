@@ -3,12 +3,13 @@ layout: post
 title: Tracking software delivery and product velocity
 ---
 
+
 I've recently had a few discussions about velocity. 
 
 ![image]({{ site.baseurl }}/images/mark-tuzman-103358-unsplash.jpg)
 *Photo by Mark Tuzman on Unsplash*
 
-The discussions were around how a company's product velocity has been decreasing and how they aren't delivering as fast as they need to. This is always a hot topic internally, as founders, leaders and teams are always looking to increase product velocity. 
+The discussions were around how a company’s product velocity has been decreasing and how they aren’t delivering as fast as they need to. This is always a hot topic internally, as founders, leaders and teams are always looking to increase product velocity.
 
 While the discussions specifically talked about product velocity, they were talking more broadly about the ability to deliver value to customers. 
 
@@ -63,8 +64,8 @@ What's great about MTTR - like the above metrics - gives insight into the wider 
 
 ## Data driven decisions
 
-I like how these metrics all overlap & encourage a DevOps culture. 
+I like how these metrics all overlap & encourage a DevOps culture.
 
-They each give insight into the full product engineering process as well as each critical component (customer satisfaction, engineering efficiency, quality & production). The overlap increases the quality of each metric and increases the ability to track over time. Which is the whole aim - tracking software delivery or *velocity* over time.  
+They each give insight into the full product engineering process as well as each critical component (customer satisfaction, engineering efficiency, quality & production). The overlap increases the quality of each metric and increases the ability to track over time. Which is the whole aim — tracking software delivery or *velocity* over time.
 
-When tracked over time, they give an early indication of software delivery issues or decreasing product velocity. All based on real data, not opinion or hearsay! 
+When tracked over time, they give an early indication of software delivery issues or changes in product velocity. All based on real data, not opinion or hearsay!
