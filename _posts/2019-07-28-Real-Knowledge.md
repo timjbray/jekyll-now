@@ -10,7 +10,7 @@ _Photo by Glen Noble on Unsplash_
 
 This concept has come up in a few conversations recently.
 
-As your experience and knowledge increases across a range of topics, you may not feel any more knowledgable. Why might this be? It turns out there's a simple explanation.
+As your experience and knowledge increases across a range of topics, you may not feel any more knowledgeable. Why might this be? It turns out there's a simple explanation.
 
 As your experience and knowledge expands, you encounter more topics and understand existing topics more deeply. Your circle of knowledge increases.
 
@@ -50,8 +50,14 @@ There's another model which nicely explains progression of knowledge. The [four 
 ![image]({{ site.baseurl }}/images/four-stages-of-knowledge.png)
 _Four stages of knowledge_
 
-Again, it's the self awareness that is most important.
-
 While there might be some ignorant bliss that goes with unconscious incompetence, it's ideal to be aware of what stage your knowledge or skill is at. Then progress as many as possible through the stages, especially from the first stage!
 
-I've found the these models have helped build self awareness. Knowing what stage my knowledge is at helps identify risks and areas to futher research. Then together, hopefully enables better decision-making. 
+---
+
+There's still issues with model.
+
+For anything that is non-trivial, conscious competence is not a singular final state. Our knowledge is always incomplete. It either contains errors or the world has moved on. What was once true, now might not be.
+
+But we can use this knowledge to help us problem solve and make better decisions.
+
+Build our self awareness and confidence in what we know. But we should also be humble. Be aware that we might be wrong, and be aware there is always more to learn.
