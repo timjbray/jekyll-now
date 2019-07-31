@@ -14,7 +14,7 @@ As your experience and knowledge increases across a range of topics, you may not
 
 As your experience and knowledge expands, you encounter more topics and understand existing topics more deeply. Your circle of knowledge increases.
 
-On the edge of this knowledge circle are the topics you may have encountered, but don't know. As your knowledge and experience increases, you know more topics.
+On the edge of this knowledge circle are the topics you may have encountered, but don't know. As your knowledge and experience increases, you know more topics exist.
 
 As your 'knowns' increase so do your 'unknowns'. You know that you don't know more :WINK:
 
@@ -45,19 +45,19 @@ When we understand the limits of our knowledge, we can make better decisions. Ju
 
 ## Four Stages of Knowledge
 
-There's another model which nicely explains progression of knowledge. The [four stages of knowledge](https://en.wikipedia.org/wiki/Four_stages_of_competence):
+There's another model which explains progression of knowledge. The [four stages of knowledge](https://en.wikipedia.org/wiki/Four_stages_of_competence):
 
 ![image]({{ site.baseurl }}/images/four-stages-of-knowledge.png)
 _Four stages of knowledge_
 
 While there might be some ignorant bliss that goes with unconscious incompetence, it's ideal to be aware of what stage your knowledge or skill is at. Then progress as many as possible through the stages, especially from the first stage!
 
----
-
 There's still issues with model.
 
-For anything that is non-trivial, conscious competence is not a singular final state. Our knowledge is always incomplete. It either contains errors or the world has moved on. What was once true, now might not be.
+---
 
-But we can use this knowledge to help us problem solve and make better decisions.
+For anything non-trivial, conscious competence is not a singular final state. Our knowledge is always incomplete. It either contains errors or the world has moved on. What was once true, now might not be.
+
+But we can use this knowledge to help us problem solve and make better decisions. Understanding what is most likely fact, what is probable, what is unlikely and then what is false.
 
 Build our self awareness and confidence in what we know. But we should also be humble. Be aware that we might be wrong, and be aware there is always more to learn.
