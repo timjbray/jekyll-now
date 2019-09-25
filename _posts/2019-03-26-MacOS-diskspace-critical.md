@@ -17,9 +17,8 @@ There are plenty of commercial tools that will help. But, wearing my engineer's 
 
 Running through the process below, I was able to free up more than 50Gb of space.
 
-1. Table of contents
+* Table of contents
    {:toc}
-
 # The basics
 
 Click on the _Apple_ icon in the menu, select _About this mac_ & then click on _Storage_.
