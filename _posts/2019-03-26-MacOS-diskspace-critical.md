@@ -58,12 +58,18 @@ Quit all apps before clearing anything in the cache. It's apparently better to d
 
 # Node / yarn / npm
 
-If you're using Nodejs, npm or yarn you may find a large cache has built up over time. I found my `yarn` cache was over 8Gb and full of older packages.
+If you're using Nodejs, npm or yarn you may find a large cache has built up over time. I found my `yarn` cache was over 8Gb and full of older packages. My `npm` cache also had a couple Gb which could be cleaned.
 
 Time for a clean:
 
 ```
 yarn cache clean
+```
+
+Verify & garbage collect npm as well:
+
+```
+npm cache verify
 ```
 
 # Xcode Junk
@@ -79,3 +85,14 @@ Head to `~/Library/Developer/Xcode/Archives` and remove any folders you no longe
 I had 15Gb of iOS Device Support. Most of these were for older iOS versions that we can safely delete.
 
 Browse to `~/Library/Developer/Xcode/iOS DeviceSupport` and remove older iOS version folders.
+
+# CocoaPods
+
+The [CocoaPods](https://cocoapods.org/) cache can sometimes become large and dirty, you can delete it then re-download everything:
+
+```
+pod cache -all clean
+pod update
+```
+
+If you're feeling lucky, can delete the whole pod cache folder here `~/Library/Caches/CocoaPods`
