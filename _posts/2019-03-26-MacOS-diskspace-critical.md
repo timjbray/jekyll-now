@@ -86,6 +86,14 @@ I had 15Gb of iOS Device Support. Most of these were for older iOS versions that
 
 Browse to `~/Library/Developer/Xcode/iOS DeviceSupport` and remove older iOS version folders.
 
+## Downloads
+
+Simulator images are also saved to this location `~/Library/Caches/com.apple.dt.Xcode/Downloads`, delete any dmg files you don't need
+
+## Old simulator runtimes
+
+Remove any old iOS versions you no use from here `/Library/Developer/CoreSimulator/Profiles/Runtimes`
+
 # CocoaPods
 
 The [CocoaPods](https://cocoapods.org/) cache can sometimes become large and dirty, you can delete it then re-download everything:
